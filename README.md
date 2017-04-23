@@ -1,4 +1,4 @@
-# Side_project_Synthetic_fraud_detection
+# Side Project: Synthetic Fraud Detection
 
 ## Overview
 The goal of this peoject is to identify the fraudulent transactions.
