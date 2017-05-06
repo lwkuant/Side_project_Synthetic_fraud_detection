@@ -7,7 +7,9 @@ Since this dataset is very imbalanced, it can simulate the problems we face in r
 
 The best performaing model so far in this task is xgboost model.
 
+
 The performance of the final model:
+
 <img src="https://github.com/lwkuant/Side_project_Synthetic_fraud_detection/blob/master/average_model.png">
 
 Here are the conclusions and takeaways:
