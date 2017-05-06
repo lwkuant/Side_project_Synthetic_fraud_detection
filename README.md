@@ -6,12 +6,13 @@ The goal of this peoject is to identify the fraudulent transactions.
 Since this dataset is very imbalanced, it can simulate the problems we face in reality.
 
 The best performaing model so far in this task is xgboost model.
-
 <br/>
+
 ##### The performance of the final model:
 
 <img src="https://github.com/lwkuant/Side_project_Synthetic_fraud_detection/blob/master/average_model.png">
 <br/>
+
 ##### Here are the conclusions and takeaways:
 
 1. I use feature transformation (log transformation) to get better features.
