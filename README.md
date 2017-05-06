@@ -8,12 +8,12 @@ Since this dataset is very imbalanced, it can simulate the problems we face in r
 The best performaing model so far in this task is xgboost model.
 <br/>
 
-##### The performance of the final model:
+#### The performance of the final model:
 
 <img src="https://github.com/lwkuant/Side_project_Synthetic_fraud_detection/blob/master/average_model.png">
 <br/>
 
-##### Here are the conclusions and takeaways:
+#### Here are the conclusions and takeaways:
 
 1. I use feature transformation (log transformation) to get better features.
 
@@ -33,7 +33,7 @@ The best performaing model so far in this task is xgboost model.
     * Try ensemble model techniques like stacking
 <br/>
 
-##### The related information regarding this dataset can be accessed below:
+#### The related information regarding this dataset can be accessed below:
 
 * [kaggle (the data source)](https://www.kaggle.com/ntnu-testimon/paysim1)
 
