@@ -10,7 +10,10 @@ The best performaing model so far in this task is xgboost model.
 
 #### The performance of the final model:
 
-<img src="https://github.com/lwkuant/Side_project_Synthetic_fraud_detection/blob/master/average_model.png">
+<img src="https://github.com/lwkuant/Side_project_Synthetic_fraud_detection/blob/master/cross_table.png">
+<br/>
+
+<img src="https://github.com/lwkuant/Side_project_Synthetic_fraud_detection/blob/master/ensemble_model.png">
 <br/>
 
 #### Here are the conclusions and takeaways:
@@ -27,7 +30,9 @@ The best performaing model so far in this task is xgboost model.
 
 6. Imbalanced dataset is still a hard task to handle, which requires more trying besides undersampling.
 
-7. Further work:
+7. Build the models on multiple subsets consisting of different negative samples from the training dataset combined with the same positive samples and then use the predictions made by each model to make final decision could perform better since the model is trained on more different negative datasets and it can know the patterns more. (2017/5/8)
+
+8. Further work:
     * More feature engineering
     * Try more different ways to deal with imbalanced data
     * Try ensemble model techniques like stacking

@@ -1018,12 +1018,14 @@ body .markdown-body
 <h2 id="overview"><a name="user-content-overview" href="#overview" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Overview</h2>
 <p>The goal of this peoject is to identify the fraudulent transactions.</p>
 <p>Since this dataset is very imbalanced, it can simulate the problems we face in reality.</p>
-<p>The best performaing model so far in this task is xgboost model.</p>
-<p><br/></p>
-<h5 id="the-performance-of-the-final-model"><a name="user-content-the-performance-of-the-final-model" href="#the-performance-of-the-final-model" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The performance of the final model:</h5>
-<p><img src="https://github.com/lwkuant/Side_project_Synthetic_fraud_detection/blob/master/average_model.png"><br />
+<p>The best performaing model so far in this task is xgboost model.<br />
 <br/></p>
-<h5 id="here-are-the-conclusions-and-takeaways"><a name="user-content-here-are-the-conclusions-and-takeaways" href="#here-are-the-conclusions-and-takeaways" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Here are the conclusions and takeaways:</h5>
+<h4 id="the-performance-of-the-final-model"><a name="user-content-the-performance-of-the-final-model" href="#the-performance-of-the-final-model" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The performance of the final model:</h4>
+<p><img src="https://github.com/lwkuant/Side_project_Synthetic_fraud_detection/blob/master/cross_table.png"><br />
+<br/></p>
+<p><img src="https://github.com/lwkuant/Side_project_Synthetic_fraud_detection/blob/master/ensemble_model.png"><br />
+<br/></p>
+<h4 id="here-are-the-conclusions-and-takeaways"><a name="user-content-here-are-the-conclusions-and-takeaways" href="#here-are-the-conclusions-and-takeaways" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Here are the conclusions and takeaways:</h4>
 <ol>
 <li>
 <p>I use feature transformation (log transformation) to get better features.</p>
@@ -1044,6 +1046,9 @@ body .markdown-body
 <p>Imbalanced dataset is still a hard task to handle, which requires more trying besides undersampling.</p>
 </li>
 <li>
+<p>Build the models on multiple subsets consisting of different negative samples from the training dataset combined with the same positive samples and then use the predictions made by each model to make final decision could perform better since the model is trained on more different negative datasets and it can know the patterns more. (2017/5/8)</p>
+</li>
+<li>
 <p>Further work:</p>
 <ul>
 <li>More feature engineering</li>
@@ -1053,7 +1058,7 @@ body .markdown-body
 </ul>
 </li>
 </ol>
-<h5 id="the-related-information-regarding-this-dataset-can-be-accessed-below"><a name="user-content-the-related-information-regarding-this-dataset-can-be-accessed-below" href="#the-related-information-regarding-this-dataset-can-be-accessed-below" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The related information regarding this dataset can be accessed below:</h5>
+<h4 id="the-related-information-regarding-this-dataset-can-be-accessed-below"><a name="user-content-the-related-information-regarding-this-dataset-can-be-accessed-below" href="#the-related-information-regarding-this-dataset-can-be-accessed-below" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>The related information regarding this dataset can be accessed below:</h4>
 <ul>
 <li><a href="https://www.kaggle.com/ntnu-testimon/paysim1">kaggle (the data source)</a></li>
 </ul>
