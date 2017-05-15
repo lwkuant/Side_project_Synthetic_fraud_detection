@@ -34,6 +34,7 @@ The best performaing model so far in this task is xgboost model.
 
 8. Further work:
     * More feature engineering
+    * More hyperparameter tuning
     * Try more different ways to deal with imbalanced data
     * Try ensemble model techniques like stacking
 <br/>
